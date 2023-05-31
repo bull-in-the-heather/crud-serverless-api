@@ -196,10 +196,12 @@ After writing the code I'll update the lambda function code.
 
 ## Testing the API with Postman
 
-Now to test the funcitonality of the API with Postman I'll start by making a `GET` request the to the /health path that was set earlier. Noticing the status of `200` letting me know that the health check was successful.
+Now to test the funcitonality of the API with Postman I'll start by making a `GET` request the to the /health path that was set earlier. Noticing the status of `200` letting me know that the health check was successful.  
+
 ![](./l.png)  
 
-To test the `POST` method functionality I will enter in JSON product details including a productId, color, and price. The body shows a successful operation was returned with a `200` status. I can also go back to the table and check if the product was posted. 
+To test the `POST` method functionality I will enter in JSON product details including a productId, color, and price. The body shows a successful operation was returned with a `200` status. I can also go back to the table and check if the product was posted.  
+
 ![](./m.png)
 ![](./n.png)  
 
@@ -208,12 +210,15 @@ Now to test modiffication functionality I'll update the product details with the
 ![](./o.png)
 ![](./p.png)  
 
-Last I'll create two more items to test the delete fuctionality and also the ability to request all the products in the table.
+Last I'll create two more items to test the delete fuctionality and also the ability to request all the products in the table.  
+
 ![](./q.png)  
 
-Now to test the delete method. A status of `200` is returned and I can also use AWS to test if the entry was deleted.                    
+Now to test the delete method. A status of `200` is returned and I can also use AWS to test if the entry was deleted.  
+
 ![](./r.png)
 ![](./s.png)  
 
-Last the `GET` method for all products will be tested. A status of `200` is returned and all the products in the table are listed. 
+Last the `GET` method for all products will be tested. A status of `200` is returned and all the products in the table are listed.  
+
 ![](./t.png)
