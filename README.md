@@ -206,7 +206,8 @@ To test the `POST` method functionality I will enter in JSON product details inc
 Now to test modiffication functionality I'll update the product details with the `PATCH` method. A status of `200` is returned with the updated details of the product. I can also check within AWS to see if the table has been modified.  
 
 ![](./o.png)
-![](./p.png)
+![](./p.png)  
+
 Last I'll create two more items to test the delete fuctionality and also the ability to request all the products in the table.
 ![](./q.png)  
 
